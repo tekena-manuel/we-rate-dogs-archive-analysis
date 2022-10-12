@@ -9,8 +9,6 @@
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
 During my analysis, I attempted  to answer 4 questions  <br />
 
 What is the most retweeted tweet and which dog is the tweet about? In order to get the answer to this question, we will be using two tables which were during my wrangling after splitting my original Twitter archive table into two because there are two elements that can be observed separately which are the dogs and the tweets. I queried the tweet count data frame using .loc and idmax() to locate the row with the highest number of retweets. <br />
